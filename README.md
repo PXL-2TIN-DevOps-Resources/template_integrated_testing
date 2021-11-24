@@ -6,10 +6,7 @@ Voor deze opdracht maak je opnieuw gebruik van de VM met daarin Jenkins uit de v
 ## Kennismaking API
 Er werdt een eenvoudige api gebouwd op [http://api.dubbadub.be/](http://api.dubbadub.be/) deze moet getest worden en deze tests willen we geïntegreerd zien in een Jenkins pipeline.
 
-Om dit te doen gaan we gebruik maken van Postman en zijn CLI variant Newman. Installeer deze alvorens te beginnen in je virtuele machine. Postman kan je downloaden op [https://www.postman.com/downloads/?utm_source=postman-home](https://www.postman.com/downloads/?utm_source=postman-home). Newman kan je installeren via onderstaand commando:
-```
-sudo npm install -g newman
-```
+Om dit te doen gaan we gebruik maken van Postman en zijn CLI variant Newman. Installeer Postman alvorens te beginnen in je virtuele machine. Postman kan je downloaden op [https://www.postman.com/downloads/?utm_source=postman-home](https://www.postman.com/downloads/?utm_source=postman-home). 
 
 _De API is beveiligd met een simpele authentication key, deze key is 2TINDEVOPS (in hoofdletters). De key moet meegegeven worden in de header met als naam ‘key’ zoals ook terug te vinden in de Swagger documentatie op de API zelf._
 
@@ -52,7 +49,7 @@ Graag zouden we de testen ook willen zien runnen in een pipeline. Bouw een nieuw
     _Tip 1: Denk eraan dat je zowel [Chrome](https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-debian-9/#1-download-google-chrome) als [Chromedriver](https://chromedriver.chromium.org/) nodig hebt zoals gezien in de slides. Deze zal je handmatig eerst moeten installeren. De selenium-side-runner is een nodeJS package. Deze kan je globaal installeren a.d.h.v. de global tool configuration in Jenkins (zie slides)._
 
     _Tip 2: Voor browser testen in een pipeline moet je de browser **headless** draaien. Dit wil zeggen dat er achterliggend een proces draait zonder dat de browser als GUI geopend wordt. In de slides kan je terugvinden hoe je dit doet._
-*   `Run integratie test`: Deze stap voert de postman testen uit en genereert ook een rapport (JUNIT formaat). Gebruik hiervoor de [newman](https://www.npmjs.com/package/newman) CLI omgeving.
+*   `Run integratie test`: Deze stap voert de postman testen uit a.d.h.v. newman en genereert ook een rapport (JUNIT formaat). Gebruik hiervoor de [newman](https://www.npmjs.com/package/newman) CLI omgeving.
 
     _Tip: Je kan newman ook opnemen in je global configuration tool op dezelfde manier als je dit gedaan hebt voor selenium-side-runner._
 
