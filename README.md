@@ -4,7 +4,7 @@ Voor deze opdracht maak je opnieuw gebruik van de VM met daarin Jenkins uit de v
 
 # Integratie testen (API)
 ## Kennismaking API
-Er werdt een eenvoudige api gebouwd op [http://api.dubbadub.be/](http://api.dubbadub.be/) deze moet getest worden en deze tests willen we geïntegreerd zien in een Jenkins pipeline.
+Er werdt een eenvoudige api gebouwd op [https://devops.d-ries.be/api](https://devops.d-ries.be/api) deze moet getest worden en deze tests willen we geïntegreerd zien in een Jenkins pipeline.
 
 Om dit te doen gaan we gebruik maken van Postman en zijn CLI variant Newman. Installeer Postman alvorens te beginnen in je virtuele machine. Postman kan je downloaden op [https://www.postman.com/downloads/?utm_source=postman-home](https://www.postman.com/downloads/?utm_source=postman-home). 
 
