@@ -34,10 +34,10 @@ Binnen onze calculator app willen we ook graag enkele automatische e2e testen vo
 *   AppCanSubtract: Deze applicatie test de functionaliteit van de Applicatie, trekt 3 van 7 af en controleert dan of de uitkomst correct op de pagina staat. Indien niet, zal deze test falen.
 
 ![alt_text](https://i.imgur.com/9leib3p.png "image_tooltip")
-_Toon met screenshots de verschillende stappen in je selenium IDE aan van de verschillende testen onder **punt (b)**._
+_Toon met screenshots de verschillende stappen in je playwright scripts aan van de verschillende testen onder **punt (b)**._
 
 ![alt_text](https://i.imgur.com/9leib3p.png "image_tooltip")
-_Sla het project op en voeg de .side file(s) toe aan deze repository._
+_Sla het project op en voeg de playwright file(s) toe aan deze repository._
 
 # Pipeline
 
