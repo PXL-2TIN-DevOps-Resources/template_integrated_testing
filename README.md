@@ -28,7 +28,9 @@ _Toon aan met screenshots & uitleg onder **punt (a)** in oplossing.md hoe je het
 _Voeg de geëxporteerde JSON files van je postman test suite toe aan deze repository._
 
 # End to end testen
-Binnen onze calculator app willen we ook graag enkele automatische e2e testen voorzien. Je gebruikt hiervoor de gedeployde applicatie uit de vorige opdracht &  **playwright**. Maak in deze repository een playwright test project aan met `npx playwright install`. Gebruik playwright om 2 testen te schrijven:
+Binnen onze calculator app willen we ook graag enkele automatische e2e testen voorzien. Je gebruikt hiervoor de gedeployde applicatie uit de vorige opdracht &  **playwright**. Maak in deze repository een playwright test project aan met `npx playwright install`. **Voorzie eveneens een `.gitignore` file zodat de `node_modules` map niet mee gepusht wordt naar Github**
+
+Gebruik playwright om 2 testen te schrijven:
 
 *   AppHasAddButton: Deze test check of er effectief een &lt;button> element op de webpagina aanwezig is met als inhoud "add". Indien niet moet deze test falen.
 *   AppCanSubtract: Deze applicatie test de functionaliteit van de Applicatie, trekt 3 van 7 af en controleert dan of de uitkomst correct op de pagina staat. Indien niet, zal deze test falen.
