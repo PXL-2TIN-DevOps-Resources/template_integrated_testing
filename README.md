@@ -1,4 +1,4 @@
-# Assignment 6 Integrated testing
+# Assignment 7 Integrated testing
 
 Voor deze opdracht maak je opnieuw gebruik van de VM met daarin Jenkins uit de vorige lessen.
 
